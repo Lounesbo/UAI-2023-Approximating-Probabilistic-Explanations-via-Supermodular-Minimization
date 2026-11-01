@@ -21,7 +21,7 @@ h(x). Such explanations are often too large to be understood by humans. A
 **probabilistic explanation** keeps a subset S ⊆ I of at most k features, and
 accepts a small error
 
-    $$ ε_{h,x}(S) = P_{y : y_S = x_S} [ h(y) ≠ h(x)] $$
+    ε_{h,x}(S) = P_{y : y_S = x_S} [ h(y) ≠ h(x)]
 
 that is, the probability that an instance agreeing with x on S is classified
 differently from x.
